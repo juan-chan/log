@@ -2,6 +2,12 @@
 
 `log` is an out-of-the-box logger, it wraps [zap](https://github.com/uber-go/zap) and makes it simpler to use.
 
+## Install
+
+```shell
+go get -u github.com/juan-chan/log
+```
+
 ## Quick Start
 
 ```go
