@@ -129,10 +129,16 @@ func (s *sugaredLogger) Error(args ...interface{}) {
 	s.sugaredLogger.Error(args...)
 }
 
+func Panic(args ...interface{}) {
+	globalSugaredLogger.Panic(args...)
+}
 func (s *sugaredLogger) Panic(args ...interface{}) {
 	s.sugaredLogger.Panic(args...)
 }
 
+func Fatal(args ...interface{}) {
+	globalSugaredLogger.Fatal(args...)
+}
 func (s *sugaredLogger) Fatal(args ...interface{}) {
 	s.sugaredLogger.Fatal(args...)
 }
